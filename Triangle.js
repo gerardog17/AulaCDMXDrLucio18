@@ -1,4 +1,4 @@
-Class Forma {
+class Forma {
     constructor (id,x,y,ladoA, ladoB, lado C)
 	{
 	   this.id=id
