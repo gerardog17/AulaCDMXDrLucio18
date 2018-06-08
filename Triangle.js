@@ -1,21 +1,29 @@
-class Forma {
-    constructor (id,x,y,ladoA,ladoB,ladoC)
-	{
-	   this.id=id
-	//asigna el id lo que pasa
-	//al constructor a un atributo de la
-	// clase que se  llama id
-	   this.mover (id,x,y)
+
+ var console=require ("console")
+ 
+-class Forma{
++class Forma
++{
+ 
+ 	constructor(id,x,y)
+-{
+-this.id=id
+-this.mover(x,y)
++		{
++		this.id=id
++		this.mover(x,y)
++		}
++	mover(x,y)
++		{
++		this.x=x
++		this.y=y
++		}
 	}
-     mover (id,x,y,)
-	{
-	   this x=x
-	   this y=y
-	}
-}
-class Triangle extends Forma {
-	constructor (id, x,y,ladoA, ladoB, ladoC)
-	   { super id,x,y)
-	   this lado=lado
-	}
-}
+-class Triangle extends Forma{
+ 	constructor(id,x,y,ladoA, ladoB, ladoC)
+-{
++	{
+ 	super(id,x,y)
+ 	this.lado=lado
+ 
++	}
