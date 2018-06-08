@@ -1,5 +1,5 @@
 class Forma {
-    constructor (id,x,y,ladoA, ladoB, lado C)
+    constructor (id,x,y)
 	{
 	   this.id=id
 	//asigna el id lo que pasa
