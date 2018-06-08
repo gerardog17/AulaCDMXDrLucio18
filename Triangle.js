@@ -1,5 +1,5 @@
 class Forma {
-    constructor (id,x,y)
+    constructor (id,x,y, ladoA,ladoB,ladoC)
 	{
 	   this.id=id
 	//asigna el id lo que pasa
@@ -14,7 +14,7 @@ class Forma {
 	}
 }
 class Triangle extends Forma {
-	constructor (id, x,y ladoA, ladoB, lado C)
+	constructor (id, x,y,ladoA, ladoB, ladoC)
 	   { super id,x,y)
 	   this lado=lado
 	}
