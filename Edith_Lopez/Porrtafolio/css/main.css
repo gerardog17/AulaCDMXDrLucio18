@@ -40,7 +40,7 @@ h2 {
 /* Colors */
 
 body {
-    background-color: pink;
+    background-color: white;
     color: #999;
 }
 
@@ -80,4 +80,12 @@ a {
 p{
     font-family: 'Questrial', sans-serif;
 
+}
+
+footer{
+    font-size: 1.25em;
+    text-align: center;
+    color: white;
+    height: 50px;
+    background-color: #32673f;
 }
