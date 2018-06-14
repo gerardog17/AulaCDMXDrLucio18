@@ -22,7 +22,7 @@ class Cuadrado extends Forma
 	this.lado=lado
 
 	}
-	Area(lado)
+	area(lado)
 	{
 		var area=lado*lado
 		return area
