@@ -1,0 +1,83 @@
+*{ padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  }
+
+body {
+   /*background-image: URL(../images/IMGFONDO.jpg);*/
+   background-repeat:no-repeat;
+   background-size: 100% 100%; 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Exo 2', sans-serif;
+}
+
+header>h1, header>p {
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 60pt;
+    text-align: center;
+}
+
+header {
+    background-image: URL(../images/foto1.jpg);
+    height: 300px;
+    width: 100%;
+}
+footer {
+    background-color: #0097A7;
+    padding: 20px;
+    text-align: center;
+
+}
+
+footer>p{
+    color: white;
+}
+
+p{
+    font-family: 'Muli', sans-serif;
+    font-size: 12pt; 
+    text-align: center;
+}
+
+.container-1, .container-2 {
+   width: 40%;
+   display: inline-block;
+}
+
+.container-1 >img {
+  height: 300px;
+  width: 300px;
+  margin-left: 30%;
+  vertical-align: 100px;
+}
+
+.container-2 >img {
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 30%;
+    vertical-align: 100px;
+   }
+   
+ 
+
+.container-1>ul, .container-2>ul, .container-1>h1, .container-2>h1 {
+    margin-left: 30px%;
+    list-style: none;
+    text-align: center;
+
+}
+/* Clear floats after the columns 
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+       /* .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+*/
