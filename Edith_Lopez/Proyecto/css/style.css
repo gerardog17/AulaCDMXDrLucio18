@@ -68,6 +68,23 @@ p{
     text-align: center;
 
 }
+
+.login {
+    color: white;
+
+}
+
+
+.login>input {
+     color: black;
+}
+.navbar>ul>a {
+    color: white;
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20%;
+}
 /* Clear floats after the columns 
     .row:after {
     content: "";
