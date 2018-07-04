@@ -1,0 +1,101 @@
+/************************
+********* General *******
+*************************/
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%; 
+    background: orange;
+    font-family: "Righteous", "cursive";
+
+}
+ 
+
+a {
+    text-decoration: none;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+/***********************
+********* Heading *******
+************************/
+
+#logo {
+    text-align: center;
+    margin: 0;
+    font-family: 'Righteous', "cursive";
+}
+
+
+h1 {
+    font-family: 'Muli', sans-serif;
+    margin: 15px 0;
+    font-size: 2.25em;
+    font-weight: bolder;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: -5px 0 0;
+    font-weight: normal;
+    font-family: 'Muli', sans-serif;
+}
+
+/***********************
+********* Colors *******
+************************/
+
+body {
+    background-color: #fff;
+    color: #999;
+}
+
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+
+h1, h2 {
+    color: white;
+}
+
+nav {
+    background: #599a68;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 0px;
+
+    
+}
+
+nav a, nav a:visited {
+    color:#fff;
+}
+
+nav a.selected, nav a:hover{
+    color: #32673f;
+}
+
+a {
+    color: #6ab47b;
+}
+
+/***********************
+********* footer *******
+************************/
+
+footer {
+    font-size: 1.25em;
+    height: 50px;
+    text-align: center;
+    padding-top: 0px;
+    color: whitesmoke;
+    background-color: darkgreen
+}
+
