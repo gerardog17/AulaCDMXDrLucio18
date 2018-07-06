@@ -12,3 +12,5 @@
 
 [Carrusel en Bootstra](https://github.com/ahmarcela/carousel-bootstrap)
 
+[Carrusel en Angular](https://github.com/ahmarcela/angular-carousel.git)
+
