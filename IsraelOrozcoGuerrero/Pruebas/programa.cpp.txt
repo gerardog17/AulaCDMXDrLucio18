@@ -1,7 +1,0 @@
-#include "stdio.h"
-#include "stdlib.h"
-
-void main()
-{
-printf("Esto esto es una prueba");
-}
