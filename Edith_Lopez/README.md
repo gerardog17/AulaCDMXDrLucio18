@@ -27,3 +27,9 @@
    Proyecto Angular del portfolio.
 
 8. El proyecto de blog de curso de fotografía esta en la carpeta de Proyecto
+
+9. Carousel en Angular 
+    [carousel angular ](https://github.com/Edith707/carousel-angular)
+    
+10. Carousel bootstrap html 
+    [carousel html](https://github.com/Edith707/carousel-html)
