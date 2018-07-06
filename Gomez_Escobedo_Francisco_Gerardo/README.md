@@ -11,3 +11,6 @@
 
 4. Carrusel usando bootstrap
 [enlace a carrusel](https://github.com/gerardog17/carrusel-bootstrap)
+
+5. Carrusel en angular
+[enlace a carrusel-ng](https://github.com/gerardog17/carrusel-angular)
