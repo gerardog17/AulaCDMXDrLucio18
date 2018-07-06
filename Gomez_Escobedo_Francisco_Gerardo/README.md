@@ -8,3 +8,6 @@
 
 3. Proyecto social
 [liga a proyecto social](https://github.com/gerardog17/proyecto-social)
+
+4. Carrusel usando bootstrap
+[enlace a carrusel](https://github.com/gerardog17/carrusel-bootstrap)
