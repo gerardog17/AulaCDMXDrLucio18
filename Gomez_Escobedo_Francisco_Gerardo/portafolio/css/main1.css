@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Eater';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Eater'), local('Eater-Regular'), url(https://fonts.gstatic.com/s/eater/v6/mtG04_FCK7bOvquxsXA.woff2) format('woff2');
+  }
+
+body {
+    font-family: 'Eater', cursive;
+}
+
+#wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 8%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    float: left;
+    margin: 0 0 15px 0;
+    padding: 2px 0 0 0;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Eater', cursive;
+    margin: 15px 0;
+    font-size: 2.00em;
+    font-weight: normal;
+    line-height: 1.0em;
+}
+
+h2{
+    font-size: 1.50em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+nav{
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+footer{
+    font-size: 1.50em;
+}
+
+body {
+    background-color: rgb(81, 148, 148);
+    color: rgb(14, 10, 10);
+}
+
+header {
+    background: #92d66a;
+    border-color: #0e8fc2;
+}
