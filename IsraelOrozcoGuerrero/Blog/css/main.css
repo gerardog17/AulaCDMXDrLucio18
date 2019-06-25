@@ -1,0 +1,187 @@
+/************************
+********* General *******
+*************************/
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center; 
+}
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%
+}
+/* Para el h3 de about*/
+h3{
+    margin: 0 0 1em 0;
+}
+
+/***********************
+********* Heading *******
+************************/
+header{
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+#logo {
+    text-align: center;
+    margin: 0;
+}
+#pie{
+    width: 100%;
+    padding: 50 px, 0 px,100 px, 0 px;
+}
+nav ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+nav li{
+    display:inline-block;
+}
+nav a{
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+h1 {
+    font-family: 'Ropa Sans', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/***********************
+****** Navigation ******
+************************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+/***********************
+******** Footer ********
+************************/
+
+footer {
+    margin-top: 20 px;
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+}
+
+/***********************
+******** Gallery ********
+************************/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 35%;
+    margin: 2.5%;
+    /*Este es el estilo que se usa para poder mostrar 2 imagenes
+    (45*2)+(2.5*4)=100% con esto el siguiente par de imagenes las
+    muestra*/
+    background: #f5f5f5;
+    color: #bdc3c7;
+    background: linear-gradient(blue,red);
+    }
+
+#gallery li a p { /*Anidando al elemento destino si no se traslapan los estilos*/
+    margin:0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+/***********************
+******** About ********
+************************/
+ .profile-photo{
+     display:block;
+     max-width: 150px;
+     margin: 0 auto 30px;
+     border-radius: 50%;
+
+ }
+/***********************
+********* Contact *******
+************************/
+.contact-info{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a{
+    display: block;
+    margin: 0 0 10 px;
+}
+/***********************
+********* Colors *******
+************************/
+
+body {
+    background-color: #00b386;
+    color: black;
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(rgb(59, 103, 158) 0%, rgb(43, 136, 217) 50%, rgb(32, 124, 202) 51%, rgb(125, 185, 232) 100%);
+}
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav {
+    background: linear-gradient(rgb(210, 223, 237) 0%, rgb(200, 215, 235) 26%, rgb(190, 208, 234) 51%, rgb(166, 192, 227) 51%, rgb(175, 199, 232) 62%, rgb(186, 208, 239) 75%, rgb(153, 181, 219) 88%, rgb(121, 155, 200) 100%);
+}
+}
+
+nav a, nav a:visited {
+    color:#f0b941;
+}
+
+nav a.selected, nav a:hover{
+    color: #f0b990;
+}
+
+a {
+    color: whitesmoke;
+}
+
+p {
+    color: black;
+}
